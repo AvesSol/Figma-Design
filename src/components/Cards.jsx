@@ -24,7 +24,7 @@ const Cards = () => {
             </div>
           )}
 
-          <div className="image  flex h-[100%] items-center justify-center w-[100%] lg:w-[45%]">
+          <div className="image  flex h-[100%] items-center justify-center w-[100%] lg:w-[45%] mt-20">
             <img className="w-[141px] h-[103px]" src="/images/img.svg" alt="" />
           </div>
 
