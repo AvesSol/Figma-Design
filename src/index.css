@@ -1,0 +1,105 @@
+@tailwind base;
+@tailwind components;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+.search {
+  width: 258px;
+  height: 37px;
+  top: 14px;
+  left: 480px;
+  border-radius: 8px;
+  border: 1px;
+  background-color: white;
+}
+.links {
+  min-width: 73px;
+  min-height: 20px;
+  top: 23px;
+  left: 817px;
+  color: #d1d6da;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.heading {
+  width: 1006px;
+  height: 60px;
+  top: 102px;
+  left: 284px;
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 60px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.item {
+  color: #727d87;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.tags {
+  min-width: 105px;
+  height: 36px;
+  border-radius: 12px;
+  background: #ffffff;
+  color: #4b5665;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+  display: flex;
+  align-items: center;
+}
+.places {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #727d87;
+}
+.btn {
+  width: 232px;
+  height: 48px;
+  top: 537px;
+  left: 1051px;
+  border-radius: 12px;
+  background: #1b88f4;
+}
+.reviewDiv {
+  width: 135px;
+  height: 118px;
+  top: 347px;
+  left: 1099px;
+  border-radius: 0px, 0px, 12px, 12px;
+}
+.count {
+  box-shadow: 0px 0px 5px #e1e4e6;
+  width: 44px;
+  height: 44px;
+  top: 379px;
+  left: 262px;
+  border-radius: 9999px;
+}
+.minCardHead{
+    font-family: Inter;
+font-size: 32px;
+font-weight: 400;
+line-height: 44px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+
+@tailwind utilities;
